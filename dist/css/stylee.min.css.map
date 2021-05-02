@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AACI,SADK,CACL,GAAG,AAAA,CACC,MAAM,CAAE,GAAG,CACd,AAHL,AAII,SAJK,CAIL,CAAC,AAAA,CACG,SAAS,CAAE,KAAK,CACnB",
+    "sources": [
+        "../../Bootstrap/lab/lab/stylee.scss",
+        "../../Bootstrap/lab/lab/_feadback.scss"
+    ],
+    "names": [],
+    "file": "stylee.min.css"
+}
