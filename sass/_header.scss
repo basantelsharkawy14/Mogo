@@ -1,5 +1,5 @@
 #header {
-  position: relative;
+position: relative;
   
   &::after {
     position: absolute;
@@ -21,7 +21,7 @@
     text-align: center;
 
     .btn {
-      margin-top: 22em;
+      margin-top: 8em;
     }
     h2 {
       
@@ -37,7 +37,7 @@
         content: "";
         position: relative;
         display: block;
-        margin-top: 0px;
+        margin-top: 10px;
         border-top: 3px solid $line-color;
         left: 46%;
         bottom: 0;
