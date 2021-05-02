@@ -21,7 +21,7 @@ position: relative;
     text-align: center;
 
     .btn {
-      margin-top: 8em;
+      margin-top: 10em;
     }
     h2 {
       
@@ -37,8 +37,8 @@ position: relative;
         content: "";
         position: relative;
         display: block;
-        margin-top: 10px;
-        border-top: 3px solid $line-color;
+        margin-top: 0px;
+        border-top: 3px solid $white-color;
         left: 46%;
         bottom: 0;
         width: 8%;
