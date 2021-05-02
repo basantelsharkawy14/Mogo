@@ -1,0 +1,21 @@
+.map{
+    height: 15rem;
+
+    h2{
+        font-size: convertFont(24);
+        font-weight: 700;
+        color: $line-color;
+
+        &::after {
+            content: "";
+            position: relative;
+            display: block;
+            margin-top: 20px;
+            border-top: 3px solid $line-color;
+            left: 46%;
+            bottom: 0;
+            width: 8%;
+            height: 10px;
+          }
+    }
+}

@@ -1,0 +1,26 @@
+.clients{
+    @include backgroundShorthand('../Assets/bg.png');
+    .sub_title{
+        font-size: convertFont(12);
+        line-height: convertFont(24);
+        color: $mainfont;
+        font-weight: 300;
+        font-style: italic;
+        font-family: "Roboto";
+
+        &::after {
+            content: "";
+            position: relative;
+            display: block;
+            margin-top: 20px;
+            border-top: 3px solid $line-color;
+            left: 0;
+            bottom: 0;
+            width: 25%;
+            height: 10px;
+          }
+    }
+    img{
+        margin-bottom: 5em;
+    }
+}

@@ -1,0 +1,46 @@
+footer{
+    font-family: "Roboto";
+    height: 35rem;
+    border-bottom: 1px solid $border-color;
+    h3{
+        font-size: convertFont(46);
+        color: $footerFont;
+        font-family: "Montserrat";
+    }
+    h4{
+        font-size: convertFont(18);
+        font-weight: bold;
+        border-bottom: 1px solid $border-color;
+        span{
+            font-weight: 400;
+            font-size: convertFont(14);
+            
+        }
+        
+    }
+    .input-group{
+        .input-group-text{
+            background-color: $rate-bg;
+            font-size: convertFont(14);
+            font-weight: 700;
+        }
+        input::placeholder {
+            color: $footerFont;
+            font-style: italic;
+          }
+    }
+    .card-title{
+        font-size: convertFont(12);
+        line-height: convertFont(18);
+        font-weight: bold;
+    }
+    .card-text{
+        font-size:  convertFont(13);
+        line-height: convertFont(24);
+        //color: #999999;
+        font-weight: 300;
+        font-style: italic;
+
+    }
+    
+}

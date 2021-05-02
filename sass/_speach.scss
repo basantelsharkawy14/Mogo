@@ -1,0 +1,20 @@
+.speach{
+    background-color: $gray-bg;
+    
+    .speach__img{
+        border: 4px solid $rate-bg;
+        display: flex;
+        height: 100px;
+        padding-left: 3em;
+        align-items: center;
+        justify-content: space-between;
+    }
+    i{
+        color: $rate-bg;
+        font-size: 2rem;
+        margin-right: 1em;
+    }
+    
+
+
+}

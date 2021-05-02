@@ -1,0 +1,12 @@
+.rate{
+    min-height: 270px;
+    background-color: $rate-bg;  
+    h2{
+        font-size: convertFont(72);
+        font-weight: 700;
+    }
+    p{
+        font-size: convertFont(14);
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,36 @@
+.blog{
+    img{
+        height: 13rem;
+    }
+    .date{
+        height: 5.5rem;
+        bottom: 7%;
+        left: -4%;
+        
+       // width: 4rem;
+        background-color: $rate-bg;
+        h4{
+            font-size: convertFont(30);
+            color: $white-color;
+            font-weight: 700;
+        }
+        p{
+            font-size: convertFont(20);
+            font-style: italic;
+        }
+    }
+    
+    .icon-line{
+        font-size: convertFont(15);
+        line-height: convertFont(38);
+        font-weight: 300;
+        font-style: italic;
+        font-family: "Roboto";
+
+        i{
+            font-size: 1.25rem;
+            color: $rate-bg;
+        }
+    }
+    
+}

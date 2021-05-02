@@ -1,0 +1,46 @@
+.team{
+    .team-img{
+        position: relative;
+        overflow: hidden;
+        img{
+
+            height: 28rem;
+        }
+        ul{
+            list-style: none; 
+        }
+        .team__overlayer{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient( $line-color 0%, $hover-color 100%);
+            opacity: 0;
+            transition: all .2s ease-in-out;
+        }
+        .team__overlayer li {
+            color:$line-color;
+            background-color: $hover-color;
+            border-left: .5px solid $line-color;
+            width: 3.5rem;
+        }
+        .team__overlayer li i{
+            font-size: 1.5rem;
+        }
+        .team__overlayer .active{
+            background-color: $line-color;
+            color: $white-color;
+        }
+        
+        &:hover .team__overlayer{
+            opacity: .85;
+            transition: all .2s ease-in-out;
+        }
+    }
+    
+    .title{
+        font-family: "Montserrat";
+        color: $mainfont;
+    }
+}
